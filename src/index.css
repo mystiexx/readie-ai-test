@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow-y: hidden;
+}
+
+@theme {
+  --color-zircon: #e9ebec;
+  --color-solitude: #9170FF;
+  --color-blue-whale: #131731;
+  --color-dodger-blue: #4278f5;
+  --color-lynch: #677489;
+  --color-lavender: #fbfdfe
+}
+
+/* side bar width: 232px */
+
+.linear {
+  background: linear-gradient(180deg, #eef4ff 0%, #fff 100%), repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.02),
+    rgba(0, 0, 0, 0.02) 1px,
+    transparent 1px,
+    transparent 40px
+  ),
+  repeating-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.02),
+    rgba(0, 0, 0, 0.02) 1px,
+    transparent 1px,
+    transparent 40px
+  );
+}
